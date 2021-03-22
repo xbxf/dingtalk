@@ -1,0 +1,27 @@
+{
+    "name": "xbxf/dingtalk",
+    "description": "dingtalk send robot message",
+    "type": "library",
+    "require": {
+        "php": "^7.3",
+        "laravel/laravel": "*"
+    },
+    "authors": [
+        {
+            "name": "jesse",
+            "email": "4264216@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Xbxf\\Dingtalk\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xbxf\\Dingtalk\\Provider\\PublishServiceProvider"
+            ]
+        }
+    }
+}
